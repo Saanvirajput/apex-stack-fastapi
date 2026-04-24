@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexStack - Premium Full-Stack Enterprise Template</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #3b82f6;
+      --text: #f8fafc;
+      --bg: #020617;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+      border-bottom: 1px solid #1e293b;
+    }
+    h1 { font-size: 3.5rem; margin-bottom: 10px; letter-spacing: -0.025em; }
+    .badge {
+      background: var(--accent);
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+    .card {
+      background: #0f172a;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #1e293b;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); border-color: var(--accent); }
+    h3 { color: var(--accent); margin-top: 0; }
+    .cta {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 15px 30px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">Enterprise Ready</span>
+    <h1>🏛️ ApexStack</h1>
+    <p style="font-size: 1.2rem; color: #94a3b8;">High-Performance Full-Stack Template with FastAPI & React</p>
+    <a href="https://github.com/Saanvirajput/apex-stack-fastapi" class="cta">View on GitHub</a>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <h3>⚡ FastAPI Backend</h3>
+        <p>Async API architecture with SQLModel, Pydantic v2, and secure JWT authentication.</p>
+      </div>
+      <div class="card">
+        <h3>⚛️ React Frontend</h3>
+        <p>Modern SPA built with Vite, TypeScript, TanStack Router, and Tailwind CSS 4.</p>
+      </div>
+      <div class="card">
+        <h3>🐳 Infrastructure</h3>
+        <p>Full Docker Compose orchestration with Traefik proxy and automated SSL.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 80px; text-align: center; border-top: 1px solid #1e293b; padding-top: 60px;">
+      <h2>System Architecture</h2>
+      <p>Modular, scalable, and optimized for high-concurrency cloud environments.</p>
+      <div style="background: #0f172a; padding: 20px; border-radius: 8px; font-family: monospace; color: #3b82f6; text-align: left; display: inline-block;">
+        [User] -> [Traefik] -> [FastAPI/React] -> [PostgreSQL/Redis]
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Designed & Architected by Saanvi Rajput
+  </footer>
+</body>
+</html>
