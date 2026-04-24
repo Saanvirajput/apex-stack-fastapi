@@ -4,6 +4,10 @@
 
 ApexStack is a high-performance, production-ready full-stack template designed for modern enterprise applications. It combines the speed of **FastAPI**, the robustness of **PostgreSQL**, and the elegance of **React** with a dark-mode first design system.
 
+## 🌐 Live Demo
+- **Live Project Showcase**: [https://saanvirajput.github.io/apex-stack-fastapi/](https://saanvirajput.github.io/apex-stack-fastapi/)
+
+
 ## 🏗️ Architectural Overview
 
 ```mermaid
