@@ -1,12 +1,12 @@
 # 🚀 ApexStack: Premium Full-Stack Enterprise Template
 
-![SaanviStack Hero](/home/raven/.gemini/antigravity/brain/0e34cd78-0977-463f-ad0b-5adbc09a1bac/saanvistack_hero_banner_1777060665416.png)
+![SaanviStack Hero](./assets/saanvistack_hero_banner_1777060665416.png)
 
 ApexStack is a high-performance, production-ready full-stack template designed for modern enterprise applications. It combines the speed of **FastAPI**, the robustness of **PostgreSQL**, and the elegance of **React** with a dark-mode first design system.
 
 ## 🌐 Live Demo
-- **Live Project Showcase**: [https://saanvirajput.github.io/apex-stack-fastapi/](https://saanvirajput.github.io/apex-stack-fastapi/)
 
+- **Live Project Showcase**: [https://saanvirajput.github.io/apex-stack-fastapi/](https://saanvirajput.github.io/apex-stack-fastapi/)
 
 ## 🏗️ Architectural Overview
 
